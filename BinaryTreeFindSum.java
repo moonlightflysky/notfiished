@@ -49,7 +49,7 @@ public class BinaryTreeFindSum {
 			 cnt += path[i];
 			 item.add(path[i]);
 			 if (cnt == sum){
-				 res.add(item);
+				 res.add(new ArrayLisy<Integer>(item));
 			 }
 		 }
 		 
